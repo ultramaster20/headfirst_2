@@ -36,7 +36,7 @@ p.raspberry {
 #guarantee {
 	line-height: 1.9em;
 	font-style: italic;
-	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-family: Georgia, "Times New Roman", Times, serif;
 	color: #444444;
 	border-color: white;
 	border-width: 2px;
@@ -52,4 +52,38 @@ p.raspberry {
 	background-image: url(images/background.gif);
 	background-repeat: no-repeat;
 	background-position: top left;
+}
+
+#elixirs {
+	border-width: thin;
+	border-style: solid;
+	border-color: #007e7e;
+	width: 200px;
+
+	padding-left: 20px;
+	padding-bottom: 20px;
+	padding-right: 20px;
+	margin-left: 20px;
+	text-align: center;
+	background-image: url(images/cocktail.gif);
+	background-repeat: repeat-x;
+}
+
+#elixirs h2 {
+	color: black;
+}
+
+#elixirs h3 {
+color: #d12c47;
+}
+
+#elixirs {
+	line-height: 1;
+}
+
+#tovar {
+	font-size: 50%;
+	text-align: center;
+	line-height: normal;
+	margin-top: 30px;
 }
